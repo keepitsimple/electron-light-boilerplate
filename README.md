@@ -1,12 +1,15 @@
 # Electron light boilerplate (Electron, TypeScript & React.js)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) for typescript. 
-It was created from scratch and it doesn't use any existing boilerplates for Electron.
+The light and simple boilerplate for Electron. It was created from scratch and it doesn't use any existing heavyweight boilerplate for Electron.
+
+Initially, it was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) for typescript, then Electron was added. 
+
 
 Cons:
-- hot-reload for renderer
+- hot-reload for the renderer part
+- minimal amount of dependencies
 - prettier integrated
-- automated code formatting on commits via `hasky` & `lint-staged` 
+- automated code formatting on commits (via `hasky` & `lint-staged`)
 
 Pros:
 - If you make changes in the main part it needs to restart app.
@@ -53,8 +56,4 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
